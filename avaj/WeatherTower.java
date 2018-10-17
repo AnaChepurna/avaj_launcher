@@ -2,10 +2,15 @@ package avaj;
 
 import avaj.Aircrafts.Flyable;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * Created by achepurn on 12.10.2018.
  */
 public class WeatherTower extends Tower {
+    FileWriter output;
 
     @Override
     public void register(Flyable flyable) {
@@ -29,6 +34,17 @@ public class WeatherTower extends Tower {
     }
 
     public void logMessage(String s) {
-        System.out.println(s);
+        try {
+            output.write(s);
+            output.write("\n");
+            output.flush();
+        } catch (IOException e) {
+        }
     }
+
+    public void setOutput(FileWriter output)
+    {
+        this.output = output;
+    }
+
 }

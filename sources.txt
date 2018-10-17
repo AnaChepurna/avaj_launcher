@@ -1,0 +1,14 @@
+./avaj/Aircrafts/Aircraft.java
+./avaj/Aircrafts/AircraftFactory.java
+./avaj/Aircrafts/Baloon.java
+./avaj/Aircrafts/Flyable.java
+./avaj/Aircrafts/Helicopter.java
+./avaj/Aircrafts/JetPlane.java
+./avaj/Aircrafts/WrongFormatException.java
+./avaj/Chatable.java
+./avaj/Coordinates.java
+./avaj/Simulator.java
+./avaj/Tower.java
+./avaj/Weather.java
+./avaj/WeatherProvider.java
+./avaj/WeatherTower.java

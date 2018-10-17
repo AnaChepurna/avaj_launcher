@@ -15,6 +15,14 @@ abstract public class Simulator {
     private static int cycles;
     private static List<Flyable> aircrafts = new ArrayList<Flyable>();
     private static WeatherTower weatherTower = new WeatherTower();
+    private static File file = new File("simulation.txt");
+
+    {
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+        }
+    }
 
     public static void getScenarioInfo(String filename) throws Exception
     {
@@ -31,11 +39,15 @@ abstract public class Simulator {
             aircrafts.add(AircraftFactory.newAircraft(ar[0], ar[1], Integer.parseInt(ar[2]), Integer.parseInt(ar[3]),
                     Integer.parseInt(ar[4])));
         }
-
+        br.close();
     }
 
     public static void main(String[] args) throws Exception {
-        String file = "src/avaj/scenario.txt";
+        if (args.length < 1)
+            return;
+        FileWriter writer = new FileWriter(file);
+        weatherTower.setOutput(writer);
+        String file = args[0];
         try {
             getScenarioInfo(file);
             for (Flyable f :

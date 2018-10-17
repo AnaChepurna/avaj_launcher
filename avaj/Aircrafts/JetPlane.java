@@ -52,5 +52,6 @@ public class JetPlane extends Aircraft implements Flyable{
     public void landing() {
         weatherTower.logMessage(this + " landing on " + coordinates.getLongtitude() + " longtitude, " +
                 coordinates.getLatitude() + " latitude.");
+        weatherTower.unregister(this);
     }
 }
