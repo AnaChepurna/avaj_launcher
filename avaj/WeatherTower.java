@@ -1,8 +1,8 @@
 package avaj;
 
+import avaj.Aircrafts.Coordinates;
 import avaj.Aircrafts.Flyable;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -45,6 +45,11 @@ public class WeatherTower extends Tower {
     public void setOutput(FileWriter output)
     {
         this.output = output;
+    }
+
+    void changeWeather()
+    {
+        WeatherProvider.getProvider().changeWeather();
     }
 
 }

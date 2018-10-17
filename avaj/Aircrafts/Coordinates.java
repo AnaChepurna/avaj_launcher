@@ -1,4 +1,4 @@
-package avaj;
+package avaj.Aircrafts;
 
 /**
  * Created by achepurn on 13.10.2018.
@@ -8,7 +8,7 @@ public class Coordinates {
     private int latitude;
     private int height;
 
-    public Coordinates(int longtitude, int latitude, int height)
+    Coordinates(int longtitude, int latitude, int height)
     {
         this.latitude = latitude > 0 ? latitude : 0;
         this.height = height > 0 ? (height < 100 ? height : 100) : 0;

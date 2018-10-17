@@ -15,11 +15,11 @@ abstract public class Simulator {
     private static int cycles;
     private static List<Flyable> aircrafts = new ArrayList<Flyable>();
     private static WeatherTower weatherTower = new WeatherTower();
-    private static File file = new File("simulation.txt");
+    private static File output = new File("simulation.txt");
 
     {
         try {
-            file.createNewFile();
+            output.createNewFile();
         } catch (IOException e) {
         }
     }
@@ -30,25 +30,31 @@ abstract public class Simulator {
         BufferedReader br = new BufferedReader(new FileReader(file));
         String info = br.readLine().trim();
         cycles = Integer.parseInt(info);
+        if (cycles < 0)
+            throw new WrongFormatException();
         while (br.ready())
         {
             info = br.readLine().trim();
-            String [] ar = info.split(" ");
-            if (ar.length != 5)
-                throw new WrongFormatException();
-            aircrafts.add(AircraftFactory.newAircraft(ar[0], ar[1], Integer.parseInt(ar[2]), Integer.parseInt(ar[3]),
-                    Integer.parseInt(ar[4])));
+            if (!info.equals("")) {
+                String[] ar = info.split(" ");
+                if (ar.length != 5)
+                    throw new WrongFormatException();
+                aircrafts.add(AircraftFactory.newAircraft(ar[0], ar[1], Integer.parseInt(ar[2]), Integer.parseInt(ar[3]),
+                        Integer.parseInt(ar[4])));
+            }
         }
         br.close();
     }
 
     public static void main(String[] args) throws Exception {
-        if (args.length < 1)
+        if (args.length != 1) {
+            System.out.println("usage : program <filename>");
             return;
-        FileWriter writer = new FileWriter(file);
-        weatherTower.setOutput(writer);
+        }
         String file = args[0];
         try {
+            FileWriter writer = new FileWriter(output);
+            weatherTower.setOutput(writer);
             getScenarioInfo(file);
             for (Flyable f :
                     aircrafts) {
@@ -60,10 +66,11 @@ abstract public class Simulator {
                         aircrafts) {
                     f.updateConditions();
                 }
+                WeatherProvider.getProvider().changeWeather();
             }
 
         } catch (Exception e) {
-            System.out.println(e.toString());
+            System.out.println("caught : " + e.toString());
         }
     }
 }

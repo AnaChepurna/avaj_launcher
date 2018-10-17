@@ -1,7 +1,5 @@
 package avaj.Aircrafts;
 
-import avaj.Chatable;
-import avaj.Coordinates;
 import avaj.WeatherTower;
 
 /**

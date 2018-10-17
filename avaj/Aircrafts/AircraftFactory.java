@@ -1,7 +1,5 @@
 package avaj.Aircrafts;
 
-import avaj.Coordinates;
-
 import java.lang.reflect.Constructor;
 
 /**
@@ -33,6 +31,8 @@ abstract public class AircraftFactory {
 
     public static Flyable newAircraft(String type, String name, int longtitude, int latitude, int height) throws Exception
     {
+        if (name.equals(""))
+            throw new WrongFormatException();
         Class clazz = getClassfromType(type);
         checkFlyable(clazz);
         Coordinates coordinates = new Coordinates(longtitude, latitude, height);
