@@ -39,13 +39,13 @@ abstract public class AircraftFactory {
         Constructor constructor;
         Flyable obj;
         try {
-            constructor = clazz.getConstructor(String.class, Coordinates.class);
+            constructor = clazz.getDeclaredConstructor(String.class, Coordinates.class);
             obj = (Flyable) constructor.newInstance(name, coordinates);
 
         }
         catch (Exception e)
         {
-            constructor = clazz.getConstructor();
+            constructor = clazz.getDeclaredConstructor();
             obj = (Flyable) constructor.newInstance();
         }
         return obj;

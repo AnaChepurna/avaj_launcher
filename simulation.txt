@@ -8,78 +8,80 @@ Tower says: Baloon#B3(6) registered to weather tower.
 Tower says: JetPlane#J2(7) registered to weather tower.
 Tower says: Helicopter#H4(8) registered to weather tower.
 Baloon#B1(0): Damn you rain! You messed up my baloon.
-Baloon#B2(1): We do not see anything.
-JetPlane#J1(2): It's raining. Better watch out for lightings.
-Helicopter#H1(3): This is hot.
-Helicopter#H2(4): My rotor is going to freeze!
+Baloon#B2(1): Damn you rain! You messed up my baloon.
+JetPlane#J1(2): OMG! Winter is coming!
+Helicopter#H1(3): It is wet fog, omg.
+Helicopter#H2(4): It is wet fog, omg.
 Helicopter#H3(5): I think rain is so dramatic.
-Baloon#B3(6): We do not see anything.
-JetPlane#J2(7): It's raining. Better watch out for lightings.
-Helicopter#H4(8): This is hot.
+Baloon#B3(6): It's snowing. We're  gonna crash.
+JetPlane#J2(7): Maximum speed!
+Helicopter#H4(8): I think rain is so dramatic.
 Baloon#B1(0): It's snowing. We're  gonna crash.
 Baloon#B1(0) landing on 2 longtitude, 3 latitude.
 Tower says: Baloon#B1(0) unregistered from weather tower.
 Baloon#B2(1): Damn you rain! You messed up my baloon.
+JetPlane#J1(2): So dangerous to fly in fog!
+Helicopter#H1(3): This is hot.
+Helicopter#H2(4): My rotor is going to freeze!
+Helicopter#H3(5): It is wet fog, omg.
+Baloon#B3(6): It's snowing. We're  gonna crash.
+JetPlane#J2(7): It's raining. Better watch out for lightings.
+Helicopter#H4(8): I think rain is so dramatic.
+Baloon#B2(1): Let's enjoy the good weather and take some pics.
 JetPlane#J1(2): OMG! Winter is coming!
 Helicopter#H1(3): My rotor is going to freeze!
 Helicopter#H2(4): This is hot.
 Helicopter#H3(5): It is wet fog, omg.
-Baloon#B3(6): It's snowing. We're  gonna crash.
-JetPlane#J2(7): Maximum speed!
-Helicopter#H4(8): My rotor is going to freeze!
-Baloon#B2(1): It's snowing. We're  gonna crash.
-JetPlane#J1(2): It's raining. Better watch out for lightings.
-Helicopter#H1(3): My rotor is going to freeze!
-Helicopter#H1(3) landing on 654 longtitude, 43 latitude.
-Tower says: Helicopter#H1(3) unregistered from weather tower.
-Helicopter#H2(4): This is hot.
-Helicopter#H3(5): I think rain is so dramatic.
-Baloon#B3(6): We do not see anything.
-JetPlane#J2(7): So dangerous to fly in fog!
-Helicopter#H4(8): It is wet fog, omg.
-Baloon#B2(1): Damn you rain! You messed up my baloon.
-JetPlane#J1(2): It's raining. Better watch out for lightings.
-Helicopter#H2(4): It is wet fog, omg.
-Helicopter#H3(5): My rotor is going to freeze!
 Baloon#B3(6): Damn you rain! You messed up my baloon.
-JetPlane#J2(7): It's raining. Better watch out for lightings.
-Helicopter#H4(8): It is wet fog, omg.
-Baloon#B2(1): Let's enjoy the good weather and take some pics.
-JetPlane#J1(2): Maximum speed!
-Helicopter#H2(4): I think rain is so dramatic.
-Helicopter#H3(5): It is wet fog, omg.
-Baloon#B3(6): It's snowing. We're  gonna crash.
 Baloon#B3(6) landing on 102 longtitude, 22 latitude.
 Tower says: Baloon#B3(6) unregistered from weather tower.
-JetPlane#J2(7): So dangerous to fly in fog!
-Helicopter#H4(8): It is wet fog, omg.
-Baloon#B2(1): Damn you rain! You messed up my baloon.
-JetPlane#J1(2): Maximum speed!
-Helicopter#H2(4): My rotor is going to freeze!
-Helicopter#H3(5): My rotor is going to freeze!
-JetPlane#J2(7): Maximum speed!
-Helicopter#H4(8): This is hot.
-Baloon#B2(1): Let's enjoy the good weather and take some pics.
-JetPlane#J1(2): So dangerous to fly in fog!
-Helicopter#H2(4): It is wet fog, omg.
-Helicopter#H3(5): My rotor is going to freeze!
-JetPlane#J2(7): OMG! Winter is coming!
-Helicopter#H4(8): It is wet fog, omg.
-Baloon#B2(1): It's snowing. We're  gonna crash.
-JetPlane#J1(2): It's raining. Better watch out for lightings.
-Helicopter#H2(4): It is wet fog, omg.
-Helicopter#H3(5): It is wet fog, omg.
-JetPlane#J2(7): So dangerous to fly in fog!
-Helicopter#H4(8): This is hot.
+JetPlane#J2(7): It's raining. Better watch out for lightings.
+Helicopter#H4(8): I think rain is so dramatic.
 Baloon#B2(1): We do not see anything.
 JetPlane#J1(2): So dangerous to fly in fog!
+Helicopter#H1(3): I think rain is so dramatic.
 Helicopter#H2(4): I think rain is so dramatic.
 Helicopter#H3(5): It is wet fog, omg.
-JetPlane#J2(7): OMG! Winter is coming!
-Helicopter#H4(8): My rotor is going to freeze!
-Baloon#B2(1): Let's enjoy the good weather and take some pics.
-JetPlane#J1(2): Maximum speed!
-Helicopter#H2(4): I think rain is so dramatic.
+JetPlane#J2(7): So dangerous to fly in fog!
+Helicopter#H4(8): I think rain is so dramatic.
+Baloon#B2(1): It's snowing. We're  gonna crash.
+JetPlane#J1(2): OMG! Winter is coming!
+Helicopter#H1(3): I think rain is so dramatic.
+Helicopter#H2(4): It is wet fog, omg.
 Helicopter#H3(5): I think rain is so dramatic.
 JetPlane#J2(7): Maximum speed!
 Helicopter#H4(8): This is hot.
+Baloon#B2(1): It's snowing. We're  gonna crash.
+JetPlane#J1(2): Maximum speed!
+Helicopter#H1(3): My rotor is going to freeze!
+Helicopter#H1(3) landing on 654 longtitude, 54 latitude.
+Tower says: Helicopter#H1(3) unregistered from weather tower.
+Helicopter#H2(4): My rotor is going to freeze!
+Helicopter#H3(5): I think rain is so dramatic.
+JetPlane#J2(7): OMG! Winter is coming!
+Helicopter#H4(8): My rotor is going to freeze!
+Baloon#B2(1): Let's enjoy the good weather and take some pics.
+JetPlane#J1(2): OMG! Winter is coming!
+Helicopter#H2(4): This is hot.
+Helicopter#H3(5): I think rain is so dramatic.
+JetPlane#J2(7): OMG! Winter is coming!
+Helicopter#H4(8): This is hot.
+Baloon#B2(1): Damn you rain! You messed up my baloon.
+JetPlane#J1(2): So dangerous to fly in fog!
+Helicopter#H2(4): This is hot.
+Helicopter#H3(5): This is hot.
+JetPlane#J2(7): Maximum speed!
+Helicopter#H4(8): It is wet fog, omg.
+Baloon#B2(1): Damn you rain! You messed up my baloon.
+JetPlane#J1(2): OMG! Winter is coming!
+JetPlane#J1(2) landing on 23 longtitude, 57 latitude.
+Tower says: JetPlane#J1(2) unregistered from weather tower.
+Helicopter#H2(4): I think rain is so dramatic.
+Helicopter#H3(5): I think rain is so dramatic.
+JetPlane#J2(7): It's raining. Better watch out for lightings.
+Helicopter#H4(8): I think rain is so dramatic.
+Baloon#B2(1): We do not see anything.
+Helicopter#H2(4): I think rain is so dramatic.
+Helicopter#H3(5): It is wet fog, omg.
+JetPlane#J2(7): So dangerous to fly in fog!
+Helicopter#H4(8): I think rain is so dramatic.
