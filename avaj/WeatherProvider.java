@@ -35,8 +35,10 @@ public class WeatherProvider {
 
     public String getCurrentWeather(Coordinates coordinates)
     {
+        int h = coordinates.getHeight();
+        h = h == 0 ? 1 : h;
         int x = coordinates.getLatitude() * coordinates.getLongtitude()
-                / coordinates.getHeight() % currentWeather.size();
+                / h % currentWeather.size();
         return currentWeather.get(x);
     }
 
